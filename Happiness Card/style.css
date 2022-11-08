@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: lightblue;
+    background-color: lightblue;
+}
+h1{
+    color: #430d27;
+    text-align: center;
+    margin-top: 70px;
+}
+.card-container{
+    display: flex;
+}
+.card{
+    width: 282px;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #1c7077;
+    margin-top: 90px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+.title-heart{
+    width: 100%;
+}
+.card-title{
+    display: inline;
+}
+button{
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+button i{
+    color: red;
+    font-size: 20px;
+    padding: 4px;
+}
+button i:hover{
+    transform: scale(1.4);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.irene{
+    margin-left: 164px;
+}
+.seulgi{
+    margin-left: 155px;
+}
+.wendy{
+    margin-left: 148px;
+}
+.joy{
+    margin-left: 184px;
+}
+.yeri{
+    margin-left: 178px;
+}
